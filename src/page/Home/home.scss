@@ -1,0 +1,16 @@
+@import "../../globalStyles/_variables.scss";
+.home {
+  padding: 15px;
+  &-container {
+    background-color: $primary-color;
+    padding: 20px 10px;
+    height: 380px;
+    @media(min-width:786px) {
+        display: flex;
+        align-items: center;
+    }
+  }
+  &-card{
+    height: 100px;
+  }
+}

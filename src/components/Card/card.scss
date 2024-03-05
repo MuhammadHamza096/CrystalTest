@@ -1,0 +1,12 @@
+.description {
+  height: 40px;
+  @media (max-width: 1200px) {
+    height: 80px;
+  }
+}
+.card-content {
+  padding: 16px 7px !important;
+}
+.card-media{
+    height: 160px!important ;
+}

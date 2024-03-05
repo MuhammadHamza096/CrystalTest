@@ -1,0 +1,25 @@
+@import "../../globalStyles/_variables.scss";
+.blue-color {
+  background-color: $blue_color;
+  text-transform: capitalize !important;
+}
+.gray-color {
+  border: 1px solid $light_grey !important;
+  color: $grey !important;
+  text-transform: capitalize !important;
+}
+
+.button {
+    @media (max-width:600px) {
+        font-size: $font-size-10 !important;
+    }
+  
+  @media (max-width:400px) {
+    font-size: $font-size-8 !important;
+    padding:10px 10px!important;
+    
+  }
+  @media (max-width:350px) {
+    padding:10px 10px!important;
+  }
+}

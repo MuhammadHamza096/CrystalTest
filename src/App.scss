@@ -1,0 +1,16 @@
+body {
+  background-color: lightgray;
+  h2,
+  p,
+  h4,
+  h5 {
+    margin: 0;
+    padding: 0;
+  }
+  .main-container {
+    display: flex;
+    &-right {
+      width: 100%;
+    }
+  }
+}
